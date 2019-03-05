@@ -1,7 +1,7 @@
 class StackData {
   public score: number;
-  public answer: string;
-  public noofview: number;
+  public title: string;
+  public view_count: number;
   public tags: string;
-  public time: Date;
+  public last_activity_date: Date;
 }

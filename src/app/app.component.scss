@@ -13,6 +13,9 @@ table th{
   background-color: darkcyan;
   color: white;
 }
+p-table td{
+  word-wrap: break-word;
+}
 .search-btn-cls{
   background-color: darkcyan;
   color: white;
@@ -20,9 +23,27 @@ table th{
 .center{
   text-align: center;
 }
-#table-pagination{
-  border: solid 1px;
-  height: 53px;
-  background-color: lightgray;
-  color:blue;
-}
+
+.im_loading{
+  left: 0%;
+  display: block;
+  position: fixed;
+  top: 0%;
+  margin: 0px 0px 0px 0px;
+  background: #fff url(../assets/img/loading_img_1.gif) no-repeat center center;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 0px;
+  opacity: 0.7;
+  background-size: 10% 20%;
+ }
+ .padding-cls{
+    padding-bottom: 4%
+ }
+ .accespted-answer{
+       background-color: rgba(144, 238, 144, 0.65) !important;
+       cursor: pointer;
+ }

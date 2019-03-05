@@ -3,6 +3,10 @@ import { NgModule } from '@angular/core';
 import { HttpModule } from '@angular/http';
 import { DataTablesModule } from 'angular-datatables';
 import { AppComponent } from './app.component';
+import { FormsModule } from '@angular/forms';
+// import { DataTableModule, InputTextareaModule, PanelModule, DropdownModule } from 'primeng/primeng';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
+import {TableModule} from 'primeng/table';
 
 
 @NgModule({
@@ -12,7 +16,10 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule,
     HttpModule,
-    DataTablesModule
+    DataTablesModule,
+    FormsModule,
+    BrowserAnimationsModule,
+    TableModule
   ],
   providers: [],
   bootstrap: [AppComponent]
